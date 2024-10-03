@@ -1,0 +1,18 @@
+h2 {
+    color: teal;
+    font-size: xx-large;
+}
+p {
+    color: violet;
+    font-size: x-large;
+}
+
+.para2{
+    font-family: Iosevka NFP;
+    color: green;
+}
+
+#para3{
+    font-family: Jetbrains Mono;
+    color: chartreuse;
+}

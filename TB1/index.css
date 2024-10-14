@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.profile-picture-stats {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 20px;
+    border: 2px solid #fd1d1d;
+}
+.profile-stats {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.stat {
+    text-align: center;
+}
+.stat-value {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.stat-label {
+    font-size: 0.8em;
+    color: #666;
+}
+.profile-info {
+    width: 100%;
+}
+.profile-actions {
+
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.profile-actions button{
+  font-weight: 700;
+}
+
+.follow{
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+}
+
+.profile-actions button {
+    flex-grow: 1;
+    padding: 10px;
+}
+.status-circles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.status-item {
+    text-align: center;
+}
+.status-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-bottom: 5px;
+}
+.status-label {
+    font-size: 0.8em;
+}
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.icon-row a, .icon-row a:hover {
+  color: black;
+  text-decoration: none;
+}
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.content-item {
+    aspect-ratio: 1;
+    background-color: #ddd;
+}
+.bottom-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.bottom-icons a, .bottom-icons a:hover {
+  color: black;
+  text-decoration: none;
+}
